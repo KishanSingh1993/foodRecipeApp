@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="awdawd">awdawd</string>
+    <string name="adswad">adswad</string>
+    <string name="testtest">testtest</string>
+    <string name="read_more">Read more ...</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="category">Category</string>
+</resources>

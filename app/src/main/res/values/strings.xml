@@ -10,4 +10,8 @@
     <string name="home">Home</string>
     <string name="favorite">Favorite</string>
     <string name="category">Category</string>
+    <string name="popular_items">Today\'s Menu</string>
+    <string name="category1">Recommend</string>
+    <string name="what_would_you_like_to_eat">What would you like to eat</string>
+    <string name="search">Search</string>
 </resources>

@@ -15,4 +15,9 @@
         android:icon="@drawable/ic_category"
         android:id="@+id/categoryFragment"
         />
+
+    <item android:title="@string/search"
+        android:icon="@drawable/search"
+        android:id="@+id/searchFragment"
+        />
 </menu>

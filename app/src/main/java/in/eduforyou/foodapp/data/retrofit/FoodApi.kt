@@ -14,7 +14,7 @@ interface FoodApi {
     fun getCategories(): Call<CategoryResponse>
 
     @GET("filter.php?")
-    fun getMealsByCategory(@Query("i") category:String):Call<MealsResponse>
+    fun getMealsByCategory(@Query("c") category:String):Call<MealsResponse>
 
     @GET ("random.php")
     fun getRandomMeal():Call<RandomMealResponse>

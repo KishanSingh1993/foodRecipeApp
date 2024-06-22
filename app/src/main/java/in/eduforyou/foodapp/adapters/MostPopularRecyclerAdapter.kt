@@ -42,6 +42,8 @@ class MostPopularRecyclerAdapter : RecyclerView.Adapter<MostPopularRecyclerAdapt
 
         }
 
+        holder.binding.recipeName.setText(mealsList[position].strMeal)
+
         holder.itemView.setOnClickListener {
             onItemClick.onItemClick(mealsList[position])
         }

@@ -9,6 +9,7 @@ import `in`.eduforyou.foodapp.data.retrofit.RetrofitInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+import kotlin.math.log
 
 const val TAG = "MainMVVM"
 
@@ -21,7 +22,7 @@ class MainFragMVVM: ViewModel() {
     init {
         getRandomMeal()
         getAllCategories()
-        getMealsByCategory("beef")
+        getMealsByCategory("Vegetarian")
     }
 
 
@@ -54,6 +55,7 @@ class MainFragMVVM: ViewModel() {
 
         RetrofitInstance.foodApi.getMealsByCategory(category).enqueue(object : Callback<MealsResponse> {
             override fun onResponse(call: Call<MealsResponse>, response: Response<MealsResponse>) {
+                Log.d("Veg Response",response.body().toString())
                 mutableMealsByCategory.value = response.body()
             }
 
